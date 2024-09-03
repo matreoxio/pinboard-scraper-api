@@ -17,7 +17,7 @@ class LinkController extends Controller
             // Look through tags in links table and get any records that match provided tags
             $links = Link::where(function ($query) use ($tags) {
                 foreach ($tags as $tag) {
-                    $query->orWhereJsonContains('tags', $tag);
+                    $query->whereJsonContains('tags', $tag);
                 }
             })->get();
         } else {
