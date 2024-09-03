@@ -22,7 +22,7 @@ php artisan app:scrape-pinboard-links
 
 ## Thisngs to improve
 * Allow user to pass in the page they want to scrape
-* Check if a link has laready been scraped in the DB
+* Check if a link has already been scraped
 * Set up an automation to check link status
 
 ## Libraries Used
