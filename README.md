@@ -20,7 +20,7 @@ php artisan serve
 php artisan app:scrape-pinboard-links
 ```
 
-## Thisngs to improve
+## Things to improve
 * Allow user to pass in the page they want to scrape
 * Check if a link has already been scraped
 * Set up an automation to check link status
