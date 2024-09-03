@@ -26,6 +26,6 @@ php artisan app:scrape-pinboard-links
 * Set up an automation to check link status
 
 ## Libraries Used
-###Fetching HTTP resources 
+### Fetching HTTP resources 
 * symfony/browser-kit
 * symfony/http-client
